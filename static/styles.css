@@ -8,24 +8,24 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background: linear-gradient(135deg, #2980B9, #6DD5FA); /* Improved gradient background */
+    background: linear-gradient(135deg, #2980B9, #6DD5FA); 
 }
 
 h1 {
     font-size: 24px;
     margin: 20px 0;
-    text-align: left; /* Align the text heading to the left */
-    font-weight: bold; /* Make the text heading emboldened */
+    text-align: left; 
+    font-weight: bold; 
 }
 
 form {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Background with blur effect */
+    background-color: rgba(255, 255, 255, 0.8); 
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    text-align: left; /* Align the form contents to the left */
+    text-align: left; 
 }
 
 label, input, select {
