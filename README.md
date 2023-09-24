@@ -13,4 +13,9 @@ The "Corruptify" web application, built using Python and Flask, allows users to 
 
 Overall, "Corruptify" combines practical functionality with an attractive design, making it an excellent reference for web developers looking to build similar applications or enhance their projects.
 
+# Work in progress:
+🔃 I still need to host this on a web server possibly GitHub only...
+
+🔃 I need to figure out a way to host this on a Raspberry Pi too seems like a more efficient option.
+
 ⚠️Please note that this project is just for educational and development purposes!
