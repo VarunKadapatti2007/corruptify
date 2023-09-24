@@ -22,7 +22,7 @@ def create_corrupted_file(filename, extension, size_kb):
     # Calculate the size in bytes
     size_bytes = size_kb * 1024
 
-    # Create a corrupted file with the given size (filled with null bytes)
+    #Create a corrupted file with the given size(filled with null bytes
     file_path = f'static/{filename}.{extension}'
     with open(file_path, 'wb') as file:
         file.write(b'\0' * size_bytes)
