@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='validation.js') }}"></script>
+
+    <title>Corruptify</title>
+
+</head>
+<body>
+    <h1>Corruptify</h1>
+    <form method="POST">
+        <label for="filename">Filename:</label>
+        <input type="text" id="filename" name="filename" required><br><br>
+
+        <label for="extension">File Extension:</label>
+        <select id="extension" name="extension">
+            <option value="txt">txt</option>
+            <option value="pdf">pdf</option>
+            <option value="jpg">jpg</option>
+            <option value="jpeg">jpeg</option>
+            <option value="mp4">mp4</option>
+            <option value="mp3">mp3</option>
+            <option value="avi">avi</option>
+            <option value="doc">doc</option>
+            <option value="docx">docx</option>
+            <option value="cpp">ppt</option>
+            <option value="c">pptx</option>
+            <option value="java">c</option>
+            <option value="js">cpp</option>
+            <option value="html">html</option>
+            <!-- Add more options for different extensions -->
+        </select><br><br>
+
+        <label for="size_kb">Size (in KB):</label>
+        <input type="number" id="size_kb" name="size_kb" required oninput="validateSize(this)">
+        <span id="size_error" class="error"></span>
+
+        <input type="submit" value="Download" id="download_btn" disabled>
+    </form>
+</body>
+</html>
